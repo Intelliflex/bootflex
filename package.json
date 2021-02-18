@@ -1,0 +1,93 @@
+{
+  "name": "bootflex",
+  "version": "1.0.30",
+  "private": false,
+  "homepage": "https://intelliflex.github.io/bootflex",
+  "license": "MIT",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "source": "src/index.js",
+  "scripts": {
+    "start": "craco start",
+    "buildcra": "craco build",
+    "build": "rimraf dist && rollup -c",
+    "builddemo": "craco build",
+    "test": "craco test",
+    "gh-pages": "craco build && gh-pages -d build",
+    "gh-pages-only": "gh-pages -d build",
+    "prepublish": "yarn build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "keywords": [
+    "react",
+    "bootstrap",
+    "forms",
+    "data tables",
+    "user interface",
+    "UI",
+    "layout"
+  ],
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "@hookform/error-message": "^0.0.5",
+    "dollar-underscore": "^0.1.2",
+    "immer": "^8.0.1",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
+    "numeral": "^2.0.6",
+    "react-data-table-component": "^7.0.0-alpha-5",
+    "react-datepicker": "^3.4.1",
+    "react-hook-form": "^6.14.2",
+    "react-icons": "^4.1.0",
+    "react-input-mask": "^2.0.4",
+    "react-number-format": "^4.4.4",
+    "react-router-dom": "^5.2.0",
+    "react-select": "^4.0.2",
+    "styled-components": "^5.2.1",
+    "use-deep-compare-effect": "^1.6.1",
+    "use-immer": "^0.4.2",
+    "uuid": "3.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@craco/craco": "^6.1.0",
+    "@rollup/plugin-babel": "^5.2.2",
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-image": "^2.0.6",
+    "@rollup/plugin-node-resolve": "^11.1.0",
+    "babel-loader": "^8.2.2",
+    "bootstrap": "^4.6.0",
+    "css-loader": "^5.0.2",
+    "gh-pages": "^3.1.0",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.2.4",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "^17.0.1",
+    "react-scripts": "^4.0.1",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.38.0",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.0",
+    "rollup-plugin-sass": "^1.2.2",
+    "sass": "^1.32.5",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0"
+  },
+  "peerDependencies": {
+    "bootstrap": ">=4.6.0",
+    "react": ">=16.7.0",
+    "react-bootstrap": ">=1.4.3",
+    "react-dom": ">=16.7.0"
+  }
+}
