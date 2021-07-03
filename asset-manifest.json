@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/bootflex/static/css/main.57d0fd5f.chunk.css",
-    "main.js": "/bootflex/static/js/main.44858ab9.chunk.js",
-    "main.js.map": "/bootflex/static/js/main.44858ab9.chunk.js.map",
+    "main.css": "/bootflex/static/css/main.403cd147.chunk.css",
+    "main.js": "/bootflex/static/js/main.88d48091.chunk.js",
+    "main.js.map": "/bootflex/static/js/main.88d48091.chunk.js.map",
     "runtime-main.js": "/bootflex/static/js/runtime-main.15da1509.js",
     "runtime-main.js.map": "/bootflex/static/js/runtime-main.15da1509.js.map",
     "static/css/2.84ddbd7f.chunk.css": "/bootflex/static/css/2.84ddbd7f.chunk.css",
-    "static/js/2.4baf63fe.chunk.js": "/bootflex/static/js/2.4baf63fe.chunk.js",
-    "static/js/2.4baf63fe.chunk.js.map": "/bootflex/static/js/2.4baf63fe.chunk.js.map",
+    "static/js/2.06431898.chunk.js": "/bootflex/static/js/2.06431898.chunk.js",
+    "static/js/2.06431898.chunk.js.map": "/bootflex/static/js/2.06431898.chunk.js.map",
     "index.html": "/bootflex/index.html",
     "static/css/2.84ddbd7f.chunk.css.map": "/bootflex/static/css/2.84ddbd7f.chunk.css.map",
-    "static/css/main.57d0fd5f.chunk.css.map": "/bootflex/static/css/main.57d0fd5f.chunk.css.map",
-    "static/js/2.4baf63fe.chunk.js.LICENSE.txt": "/bootflex/static/js/2.4baf63fe.chunk.js.LICENSE.txt"
+    "static/css/main.403cd147.chunk.css.map": "/bootflex/static/css/main.403cd147.chunk.css.map",
+    "static/js/2.06431898.chunk.js.LICENSE.txt": "/bootflex/static/js/2.06431898.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.15da1509.js",
     "static/css/2.84ddbd7f.chunk.css",
-    "static/js/2.4baf63fe.chunk.js",
-    "static/css/main.57d0fd5f.chunk.css",
-    "static/js/main.44858ab9.chunk.js"
+    "static/js/2.06431898.chunk.js",
+    "static/css/main.403cd147.chunk.css",
+    "static/js/main.88d48091.chunk.js"
   ]
 }
